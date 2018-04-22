@@ -7,7 +7,7 @@ theme = "material"
 paginate = 7
 relativeurls = true
 publishDir = "docs"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["_files$", "_cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -26,22 +26,22 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   url = "/"
 [[menu.main]]
   weight = 2
-  identifier = "about"
+  identifier = "history"
   name = "About"
   pre = "<i class=\"material-icons\">date_range</i>"
-  url = "/syllabus"
+  url = "/history"
 [[menu.main]]
   weight = 3
   identifier = "current_events"
   name = "Current Events"
   pre = "<i class=\"material-icons\">gavel</i>"
-  url = "/policies"
+  url = "/current_events"
 [[menu.main]]
   weight = 4
   identifier = "projects"
   name = "Projects"
   pre = "<i class=\"material-icons\">cloud_queue</i>"
-  url = "https://rstudio.cloud"
+  url = "/projects"
   
 
 [params]
