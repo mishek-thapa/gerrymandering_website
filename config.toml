@@ -2,12 +2,20 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Gerrymandering"
 theme = "material"
-googleAnalytics = ""
-disqusShortname = ""
+#googleAnalytics = ""
+#disqusShortname = ""
+paginate = 7
+relativeurls = true
+publishDir = "docs"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
+    
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
 
 # Menu Configuration
 [[menu.main]]
