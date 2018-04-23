@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://dreamy-wozniak-f95800.netlify.com/"
 languageCode = "en-us"
 title = "Gerrymandering"
 theme = "material"
